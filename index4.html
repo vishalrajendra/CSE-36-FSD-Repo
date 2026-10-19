@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var age = 30;
+    const x = 20;
+
+    {
+        let y = 10;
+        document.write("let = " + y + "<br>");
+    }
+
+    document.write("age = " + (++age) + "<br>");
+    document.write("const = " + x + "<br>");
+
+    // document.write("let y = " + y);   // Error: y is not defined
+    // document.write("constant increment = " + (++x)); // Error: Assignment to constant variable
+
+    </script>
+</body>
+</html>

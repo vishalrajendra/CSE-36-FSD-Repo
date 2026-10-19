@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Student Registration Form</h2>
+
+    <form id="registerForm">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number" required>
+
+        <label>Date of Birth</label>
+        <input type="date" required>
+
+        <label>Gender</label>
+        <div class="gender">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div>
+
+        <label>Course</label>
+        <select required>
+            <option>Select Course</option>
+            <option>B.Tech CSE</option>
+            <option>B.Tech IT</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select>
+
+        <label>College Name</label>
+        <input type="text" placeholder="Enter college name">
+
+        <label>Address</label>
+        <textarea rows="3" placeholder="Enter your address"></textarea>
+
+        <label>City</label>
+        <input type="text" placeholder="Enter your city">
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Create password" required>
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+
+        <div class="check">
+            <input type="checkbox" required>
+            I agree to the Terms & Conditions
+        </div>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
